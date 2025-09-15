@@ -1,0 +1,197 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background-color: #f9f9f9;
+   color: #333;
+}
+
+.header {
+   background-color: #ADC178;
+   color: white;
+   text-align: left;
+   margin: 0;
+   padding: 15px;
+}
+
+.navbar {
+   background-color: #dde5b6;
+   padding: 10px;
+   text-align: center;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+   margin: 0 10px;
+}
+
+.navbar a:hover {
+   color: #A98467;
+}
+
+h2, p {
+   margin: 20px;
+   text-align: center;
+}
+
+.explore-btn {
+   display: inline-block;
+   background-color: #A98467;
+   color: white;
+   padding: 12px 25px;
+   text-decoration: none;
+   font-size: 18px;
+   border-radius: 8px;
+   font-weight: bold;
+   margin-top: 20px;
+   text-align: center; 
+   
+}
+
+.explore-btn:hover {
+   background-color: #8c6f5a;
+}
+
+.help-card {
+    background-color: #f9fafb;   /* soft grey */
+    border: 2px solid #d1d5db;   /* light grey border */
+    border-radius: 16px;         /* smooth rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.1); /* soft shadow */
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #374151;              /* dark slate text */
+}
+
+/* optional: hover effect to match your theme */
+.help-card:hover {
+    border-color: #93c5fd;       /* subtle soft blue border on hover */
+    box-shadow: 3px 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Cute, bubbly images with darker green themed border, side by side */
+ul img {
+    border-radius: 20px;                         /* rounded corners */
+    border: 3px solid #2E7D32;                  /* darker green border */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);   /* soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* hover effect */
+    margin: 10px;                                /* spacing between images */
+    width: 300px;                                /* consistent size */
+    display: inline-block;                       /* sit side by side */
+}
+
+/* Hover effect */
+ul img:hover {
+    transform: scale(1.05);                      /* pop out slightly */
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.3);   /* stronger shadow on hover */
+}
+
+/* Center the image container */
+ul {
+    text-align: center;
+    list-style-type: none;  /* remove bullets */
+    padding: 0;
+}
+
+/* Hangout Page: Cute, bubbly images with dark green border, side by side */
+ul img {
+    border-radius: 20px;                         /* rounded corners for cute look */
+    border: 3px solid #2E7D32;                  /* dark green border matching theme */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);   /* soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* smooth hover effect */
+    margin: 10px;                                /* spacing between images */
+    width: 300px;                                /* consistent size */
+    display: inline-block;                       /* sit side by side */
+}
+
+/* Hover effect: playful pop */
+ul img:hover {
+    transform: scale(1.05);                      /* pop out slightly on hover */
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.3);   /* stronger shadow */
+}
+
+/* Center the image container */
+ul {
+    text-align: center;
+    list-style-type: none;  /* remove bullets */
+    padding: 0;
+}
+
+/* Avocado pastel bubbly headings */
+
+/* H1 – Main Page Title */
+h1.header {
+    background-color: #3D5A40;  /* deep avocado green */
+    color: #F2E8CF;             /* creamy text */
+    padding: 15px 25px;
+    border-radius: 25px;        
+    text-align: center;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    font-family: 'Arial', sans-serif;
+}
+
+/* H2 – Section Titles */
+h2 {
+    background-color: #A7C957;  /* pastel avocado */
+    color: #3D5A40;             /* darker avocado text */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;      
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* H3 – Subsection Titles */
+h3 {
+    background-color: #F2E8CF;  /* creamy background */
+    color: #3D5A40;             /* deep green text */
+    padding: 7px 15px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Avocado pastel bubbly headings for Hangouts Page */
+
+/* H1 – Main Page Title */
+h1.header {
+    background-color: #3D5A40;  /* deep avocado green */
+    color: #F2E8CF;             /* creamy text */
+    padding: 15px 25px;
+    border-radius: 25px;        
+    text-align: center;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    font-family: 'Arial', sans-serif;
+}
+
+/* H2 – Section Titles */
+h2 {
+    background-color: #A7C957;  /* pastel avocado */
+    color: #3D5A40;             /* dark avocado text */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;      
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* H3 – Subsection Titles */
+h3 {
+    background-color: #F2E8CF;  /* creamy background */
+    color: #3D5A40;             /* deep green text */
+    padding: 7px 15px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
